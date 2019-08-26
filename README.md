@@ -21,7 +21,7 @@ Steps to setup the project in a Linux environment:
   
 * Now, it is highly recommended that you create a virtual environment for this project, follow [this](https://docs.python-guide.org/dev/virtualenvs/#virtualenvironments-ref) guide if you're not familiar with virtuals envs.
 
-* After creating and activating a virtual env, got to the directory with the `requirements.txt` file and run `pip3 install -r requirements.txt` to install the dependencies. This step will require some time and a decent internet connection to complete.
+* After creating and activating a virtual env, go to the directory with the `requirements.txt` file and run `pip3 install -r requirements.txt` to install the dependencies. This step will require some time and a decent internet connection to complete.
 
 * Now go to the directory with the `manage.py` file and run `python manage.py migrate`. This will create the database for your app.
 
