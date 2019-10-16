@@ -27,3 +27,4 @@ Steps to setup the project in a Linux environment:
 
 * Lastly, run `python manage.py runserver`. If everything worked accordingly, you should now be able to access the app through a browser at 127.0.0.1:8000/classifier/UploadPhoto/ 
 
+_Thanks, Google Colab._
