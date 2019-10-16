@@ -1,4 +1,7 @@
 <h1>Upload a picture</h1>
+Upload a photo of a Leopard or a Cheetah and my model will try to guess<br>
+which one it is. Either that, or you could just upload a picture of anything really.<br>
+<hr>
 
 <form method = "POST" enctype="multipart/form-data">
     {% csrf_token %}
@@ -7,6 +10,6 @@
 </form>
 
 {% if uploaded %}
-    <h2>Its a {{ prediction }}</h2>
+    <h2>Its a {{ prediction }}!</h2>
     <img src="{{ image_url }}">
 {% endif %}
